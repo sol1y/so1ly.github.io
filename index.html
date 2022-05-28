@@ -1,0 +1,606 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+    
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <link rel = "icon" href = "img/icon.png"> 
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    <link rel = "stylesheet" href = "style.css"> 
+    <link rel = "stylesheet" href = "style.css"> 
+    <title>Tsunami Project</title> 
+
+ 
+ 
+
+    <style> 
+        @font-face {
+            font-family: CavBold;
+            src: url(font/CaviarDreams_Bold.ttf);
+     }
+     @font-face {
+            font-family: Cav;
+            src: url(font/CaviarDreams.ttf);
+     }
+     @font-face {
+            font-family: Ak;
+            src: url(font/Akira\ Expanded\ Demo.otf);
+     }
+     @font-face {
+            font-family: Big;
+            src: url(font/big_noodle_titling.ttf);
+     }
+     @font-face {
+            font-family: Kiona;
+            src: url(font/Kiona-Regular.ttf);
+     }
+        .nav-bar{ 
+            
+            display: flex; 
+
+            justify-content: space-between; 
+
+            margin: 50px; 
+            
+        } 
+
+        .left-side{ 
+
+            display: flex; 
+
+            justify-content: flex-end; 
+
+ 
+ 
+ 
+
+        } 
+
+        .right-side{ 
+
+            display: flex; 
+
+            justify-content: flex-end; 
+
+ 
+ 
+
+        }   
+
+        .left-side *{ 
+
+            margin-right: 10px; 
+
+ 
+ 
+
+        } 
+
+        .nav-bar >.left-side * { 
+
+            color: gray; 
+
+            text-decoration: none; 
+
+            border-bottom: 0ch transparent; 
+
+            margin-right: 20px; 
+
+            font-size: 0.9em; 
+
+            text-transform: uppercase; 
+
+        } 
+
+        
+
+        .left-side * :hover{ 
+
+            transition: 1s; 
+            
+            color: black; 
+
+            border-bottom: 1px black ; 
+
+ 
+ 
+
+        } 
+
+        .center-wrapper{ 
+
+            margin: 100px; 
+
+            
+
+ 
+ 
+ 
+
+        } 
+        html {
+        scroll-behavior: smooth;
+       }
+        .text{
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            text-align: center;
+            font-size: 1.5em;
+            font-family: Cav;
+        }
+        h1{
+            font-family: CavBold;
+            font-size: 2em;
+            display: flex;
+            justify-content: center;
+
+        }
+        .Question1{
+            margin-top: 10em;
+
+        }
+        .question{
+            font-family: Kiona;
+            display: flex;
+            justify-content: center;
+            font-size: 2em;
+
+            text-align: center;
+        }
+     
+       .main-text-wrapper{
+           text-align: center;
+           font-size: 5em;
+           margin: 5em;
+            font-family: Ak;
+           display: flex;
+           justify-content: center;
+       }
+       
+     .page-breaker{
+         margin-top: 5em;
+
+     }
+     .page-title{
+         text-align: center;
+         font-family: Big;
+         display: flex;
+         justify-content: center;
+         font-size: 2em;
+     }
+     .swap-second-para{
+         text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5em;
+        grid-auto-rows: minmax(100px, auto);
+        
+     }
+     
+     .wrapper{
+         position: relative;
+     }
+     .img-background {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .list{
+        display: flex;
+        justify-content: center;
+        
+    }
+    li *{
+        font-family: Cav;
+        font-size: 1.5em;
+        color: black;
+        transition: 0.5s;
+        text-decoration: none;
+    }
+    li *:hover{
+        color: rgb(7, 7, 7);
+        font-size: 1.7em;
+    }
+    
+    
+    </style> 
+   
+</head> 
+
+<body> 
+    
+    
+    <div class="nav-bar"> 
+
+        <div class="left-side"> 
+            
+            <div class="page1"> 
+
+                <div class="nav-link-wrapper"> 
+
+                    <a href = "#page1">Page 1</a> 
+
+                </div> 
+
+                 
+
+            </div> 
+
+            <div class="page2"> 
+
+                <div class="nav-link-wrapper"> 
+
+                    <a href = "#page2">Page 2</a> 
+
+                </div> 
+
+                 
+
+            </div> 
+
+            <div class="page3"> 
+
+                <div class="nav-link-wrapper"> 
+
+                    <a href = "#page3">Page 3</a> 
+
+                </div> 
+
+                 
+
+            </div> 
+
+            <div class="page4"> 
+
+                <div class="nav-link-wrapper"> 
+
+                    <a href = "#page4">Page 4</a> 
+
+                </div> 
+
+                 
+
+            </div> 
+
+        </div> 
+
+        <div class="right-side"> 
+
+            <div class="name"> 
+
+                Solomon Dickey 
+
+            </div> 
+
+        </div> 
+
+    </div> 
+
+ 
+ 
+    
+     
+
+    
+ 
+
+    <div class="center-wrapper"> 
+        <div id = "title">
+            <div class="Front-page">
+                
+                    <div class="main-text-wrapper">
+                        Tsunammi Project
+                        
+                    </div>
+                
+            </div>
+        </div>
+        
+     
+       
+
+
+
+        <div class="page-breaker">
+            <div id = "page1">
+                <hr style="color:gray;
+                width:60%;
+                text-align:left;">
+                <div class="page-title">
+                    
+                        Page 1
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="Question1"> 
+
+            <div class="question"> 
+
+                How Tsunami are caused by plate tectonics and how the wave changes near shore?  
+
+            </div> 
+
+            <div class="second-para"> 
+
+                <div class="left-side"> 
+
+                    <div class="image"> 
+
+                        <img src = "img/img-para1.jpg"
+
+                    </div> 
+
+                </div> 
+
+                <div class="right-side"> 
+                    <div class="text-wrapper">
+                        <h1>Explanation</h1> 
+
+                        <p> Tsunamis can be caused in very multiple ways, but the most sever and common is earthquake. When the Tectonic plates encounter radioactive within the earth interior, this causes the plates to move. When they move (In earthquake context), it is usually between a continental and oceanic crust. Due to the thin oceanic crust, it is pushed down and produces subduction underwater. Due to this crucial formation, movement is caused causing force to the water, furthermore, moving and creating waves above the surface. As these waves are produced, they travel both outwards and inwards towards land. As they travel inwards towards coastal land, they are approached to the shallow surface, causing the waves to slow down and increase in size. Essentially, there are many waves produces in an event of a Tsunami, cause multiple significant impact on land.  
+    
+                        </p> 
+                    </div>
+                  
+
+                        
+
+                </div> 
+
+            </div> 
+
+        </div> 
+
+
+
+
+
+
+        <div class="page-breaker">
+            <div id = "page2">
+                <hr style="color:gray;
+                width:60%;
+                text-align:left;">
+                <div class="page-title">
+                    
+                        Page 2
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+        <div class="Question1"> 
+
+            <div class="question"> 
+
+                How and why a tsunami causes damage on land? 
+
+            </div> 
+
+            <div class="second-para"> 
+
+                <div class="text-wrapper">
+                        <h1>Explanation</h1> 
+
+                        <p> To put it in simple terms, Tsunamis changes the environment critically where it is targeted. Tsunamis causes such damaging changes to land because of its size and force/speed. When tsunamis hit land, it uproots trees and natural habitats. Species are pushed and pulled by the force of the waves and are drowned/suffocated. OR in likely circumstances, are hit/forced against objects, such as, building, trees, rocks etc. Because if the force, tsunamis carry a lot of dangerous things washed from land. When they destroy homes, they are opened up to pollution or dangerous liquids that can harm animals and humans. Not only does this harm inland species but also marine life, intoxicating with toxic chemicals.   
+    
+                        </p> 
+                    </div>
+                  
+
+                        
+
+               
+
+            </div> 
+
+        </div> 
+        
+        
+        <div class="page-breaker">
+            <div id = "page3">
+                <hr style="color:gray;
+                width:60%;
+                text-align:left;">
+                <div class="page-title">
+                    
+                        Page 3
+                    
+                    
+                </div>
+            </div>
+        </div>
+ 
+    <div class="Question1"> 
+
+            <div class="question"> 
+
+                How tsunami are detected and how warnings are given?
+            </div> 
+            <div class="second-para">
+                <div class="swap-second-para"> 
+
+                    <div class="wrapper">
+                        <div class="swap-text-wrapper">
+                            <h1>Equipment used to detect tsunami (what and where) </h1>
+                            <p>A very common equipment used in tsunami detection is open-ocean tsunami buoys and by coastal tide gages. This is deployed somewhere within the oceans floor below the surface of the water. A few of these instruments warn specific centers around the world when a tsunami is detected, (one center in Alaska, another in Hawaii, and a third to be installed soon in Puerto Rico). </p>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                       
+                        <div class="img-background" style="background-image:url(img/equipment-dia.jpg)"></div>
+                        
+        
+                             
+                      
+                    </div>
+                    <div class="wrapper">
+                        <div class="img-background" style="background-image:url(img/how-dia.jpg)"></div>
+                        
+                            
+                        
+                    </div>
+                    <div class="wrapper">
+                        <div class="swap-text-wrapper">
+                            <h1>How the equipment detects the tsunami </h1>
+                            <p>The detection of a Tsunami is quite complex but really simple to understand. As there are two equipment's used (Tsunami Metre: Ocean and Surface Boi: Surface) they both are beneficial to the detection in their own ways. The Tsunami metre detects any sudden pressure increase, records the sea level and any sudden movement (earthquake) in the surrounding area. The tsunametere also takes the size and estimated type of earthquake, it will send a distress signal to the local Surface Boi, when the Boi gathers the information/signal sent, it is then sent to the programmed satellite which the satellite then send the signal to its desired tsunami detection base. </p>
+                        </div>
+                        
+                    </div>
+                    <div class="wrapper">
+                        <div class="swap-text-wrapper">
+                            <h1>How the warning is communicated to the public  </h1>
+                            <p>Recently, in New Zealand we have been communicated that there was a possible tsunami heading to the north island. We were warned through Phone sirens and notifications. This siren was sent simultaneously to all those in the victim area of the tsunami. There is also other ways to ensure citizens are warned. In the USA, they use Sirens and Emergency systems to warn those to evacuate the area. This is very helpful as it warns a large group of people of the dangers and help them to understand the local disaster happening. </p>
+                        </div>
+                        
+                    </div>
+                    <div class="wrapper">
+                        
+                            <div class="img-background" style="background-image:url(img/announced-dia.jpg)"></div>
+                       
+                    </div>
+            </div>
+            
+                
+
+
+                        
+
+                
+
+                        
+
+                
+
+            </div>       
+
+        </div> 
+
+        <div class="page-breaker">
+            <div id = "page4">
+                <hr style="color:gray;
+                width:60%;
+                text-align:left;">
+                <div class="page-title">
+                    
+                        Page 4
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="Question1"> 
+
+            <div class="question"> 
+
+                What you should do if a tsunami warning has been issued 
+
+            </div> 
+
+            <div class="second-para">
+                <div class="swap-second-para"> 
+
+                    <div class="wrapper">
+                        <div class="swap-text-wrapper">
+                            <h1>What you should do </h1>
+                            <p>The first thing you should do is wait for any sudden movement/earthquake that has happened or happening. It is crucial that you find a steady place to hide under, like a table or door frame or bunker etc (drop, cover, hold). Once the movement stops, immediately reach a high place such as, mountains, roof of a house etc. You also would want to move as much inland as soon as possible. Make sure that you are not spending essential time gathering ‘valuable’ items or ‘recording’ or gathering food. Stay out of the Tsunami hazard zone until officials tell you or announce it is safe to return. This is a very crucial part in survival against a tsunammi attack as it may be life threatning or life damaging. </p>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="wrapper">
+                        <div class="swap-text-wrapper">
+                            <h1>Why you should do it  </h1>
+                            <p>Well firstly, earthquakes are such remarkable events that can impact anything. If you are open to weak shelter, the earthquake could destroy this, and it will fall or break on you and you will die or suffer from severe damage. Hiding under a strong structure will help reduce the damage or prevent it from happening. Seeking inland or high shelter is because tsunamis can only reach inland to a certain extent. If you are past this extent, you can prevent/dodge it from impacting you. The reason you would want to seek high shelter is because tsunamis are only a certain height. If you are higher than the tsunami, then you will not be hit from it because you will be above it. However, this is a risky prevention because you cannot really determine the size of a tsunami due to it increasing over multiple waves/time period.  </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                        
+                    
+            </div>
+
+        </div> 
+
+
+        <div class="page-breaker">
+            
+            <hr style="color:gray;
+                width:60%;
+                text-align:left;">
+            <div class="page-title">
+                    
+                 Sources (3 or more)
+                    
+                    
+            </div>
+           
+        </div>
+        <div class="Question1">
+            <div class="list">
+                <ul>
+                    <li><a href = "https://www.weather.gov/wrn/fall-tsunami-sm "target="_blank">www.weather.gov</a> </li>
+                </ul>
+                <ul>
+                    <li><a href = "http://www.bom.gov.au/tsunami/about/detection_buoys.shtml  "target="_blank">www.bom.gov.au</a> </li>
+                </ul>
+                <ul>
+                    <li><a href = "https://www.ready.gov/tsunamis#:~:text=Hold%20on%20to%20any%20sturdy,as%20far%20inland%20as%20possible. "target="_blank">www.ready.gov</a> </li>
+                </ul>
+                <ul>
+                    <li><a href = "https://nctr.pmel.noaa.gov/faq_display.php?kw=8%20February%202005%20Interview%20with%20Dr.%20Hal%20Mofjeld#:~:text=Tsunamis%20are%20detected%20and%20measured,waves%20as%20they%20pass%20by. " target="_blank">nctr.pmel.noa</a> </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </div> 
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+    
+      <script src="main.js"></script>
+</body> 
+
+</html> 
+
+ 
