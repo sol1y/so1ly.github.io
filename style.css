@@ -114,3 +114,44 @@
     pointer-events: auto;
     opacity:1;
   }
+    .swiper-cont{
+        margin-top: 2em;
+        position: relative;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .centered {
+        font-size: 2em;
+    font-family: Ak;
+        z-index: 1;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+    }
+  .swiper{ 
+    
+    width: 80%;
+    height: 30em;
+    
+  }
+  
+  .swiper-slide img{
+
+      width: 100%;
+
+  }
+  .swiper .swiper-button-prev, .swiper .swiper-button-next{
+      color: #fff;
+  }
+  .swiper .swiper-pagination-bullet-active{
+      background: #fff;
+  }
